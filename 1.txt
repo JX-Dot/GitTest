@@ -1,4 +1,12 @@
-这是一个测试
-GitHub是什么
-GitHub是一个分布式版本控制系统
-GitHub非常酷
+Git是一个分布式版本控制系统
+Git 网站为http://git-scm.com
+git在Linux、macOS、Windows上有不同的安装方法
+Git安装完成后需要设置
+git config --global user.name "Your Name"
+git config --global user.email "email@example.com"
+在一个空目录创建一个版本库（仓库），即repository（如果使用命令行，注意操作系统的区别）
+通过git init命令，把目录变成Git可以管理的仓库
+注意：版本控制系统追踪的是文本文件，推荐使用notepad++等纯文本软件，设置编码格式为UTF-8
+测试，编写一个1.txt文件，放入之前的空目录，
+第一步，用git add 1.txt命令，把文件添加到仓库
+第二步，用git commit -m “本次提交相关的说明”，把文件提交到仓库
