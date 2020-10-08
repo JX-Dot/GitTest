@@ -8,5 +8,5 @@ git config --global user.email "email@example.com"
 通过git init命令，把目录变成Git可以管理的仓库
 注意：版本控制系统追踪的是文本文件，推荐使用notepad++等纯文本软件，设置编码格式为UTF-8
 测试，编写一个1.txt文件，放入之前的空目录，
-第一步，用git add 1.txt命令，把文件添加到仓库
+第一步，用git add 1.txt命令，把文件添加到仓库（注意在当前目录右键使用git bash）
 第二步，用git commit -m “本次提交相关的说明”，把文件提交到仓库
